@@ -1,6 +1,6 @@
 <?php
 #arquivos das pastas raizes
-$pasta="";
+$pasta="portfolioDiana/";
 define('DIRPAGE',"http://{$_SERVER['HTTP_HOST']}/{$pasta}");
 
 if(substr($_SERVER['DOCUMENT_ROOT'],-1)=='/'){
