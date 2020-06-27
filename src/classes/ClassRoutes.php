@@ -20,7 +20,6 @@ class ClassRoutes{
         );
         #Condição se a rota não existir
         if(array_key_exists($I, $this->Rota)){
-            //echo DIRREQ."app/controller/{$this->Rota[$I]}.php"."\n";
             if(file_exists(DIRREQ."app/controller/{$this->Rota[$I]}.php")){
                 return $this->Rota[$I];
             }else{
